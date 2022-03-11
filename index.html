@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,6 +8,7 @@
 
     <link rel="icon" type="image/x-icon"
         href="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>reddit clone</title>
 
 
@@ -56,8 +57,8 @@
 
         <!-- and start second list div here -->
         <div class="user-profile">
-<div>
-            
+            <div>
+
                 <ul>
 
                     <li>isantoshkumar</li>
@@ -74,6 +75,84 @@
 
 
     </nav>
+
+    <div id="main" class="main-class">
+        <div class="post">
+
+            <div class="post-upvotes">
+                <div class="arrow-up" onclick="upvote()">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+
+                <div id="votes">1000</div>
+
+                <div class="arrow-down" onclick="downvote()">
+
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+
+            </div>
+
+
+
+            <div class="post-body">
+                <a href="#" class="post-title"> Make a Reddit Clone</a>
+                <p>Submitted 3 Hours Ago by <a href="#" class="submit-link"> isantoshkumar </a> to <a href="#"
+                        class="submit-link">/r/redditclones</a> </p>
+                <div class="post-option">
+                    <span>comments</span>
+                    <span>Share</span>
+                    <span>Save</span>
+                    <span>Hide</span>
+                    <span>Reports</span>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="part2">
+
+            <div class="search-container">
+                <input type="text" placeholder="Search..." name="Search">
+                <button type="submit"> <i class="fa-solid fa-search"></i> </button>
+
+
+                <button class="user-action-button">
+                    submit a new link
+                </button>
+
+
+                <button class="user-action-button">
+                    submit a new text post
+                </button>
+
+
+                <button class="user-action-button">
+                    create yout own sub-reddit
+                </button>
+            </div>
+        </div>
+
+
+        <div class="reddit-gold">
+            <div>daily reddit gold goal</div>
+
+            <div>
+
+                <div class="bar-container">
+                    <div class="bar"></div>
+                </div>
+
+                <span class="gold-percent">75%</span>
+            </div>
+
+            <button class="reddit-gold-support">help support reddit</button>
+
+        </div>
+
+    </div>
+
 
 
 </body>
